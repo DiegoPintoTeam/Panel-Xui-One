@@ -3,7 +3,8 @@ apt-get update; apt-get upgrade; wget "https://update.xui.one/XUI_1.5.12.zip" -O
 ```
 ---------------------------------------------------------------------
 Restaurar Base de datos
-
+```
 /home/xui/tools migration "/root/backup.sql" 
-
+```
 /home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php
+```
