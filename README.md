@@ -106,11 +106,24 @@ El proceso de migración comienza con la restauración del archivo SQL a la base
 shell: mysql xui_migrate < database.sql
 ```
 
-Tiene dos maneras de iniciar el proceso de migración para la base de datos XUI One: visitando la página del panel o haciéndolo manualmente en el shell.
-
-Inicio Migración En Panel: Visite esta URL y haga clic en Migrar Inicio Migración En Shell: Utilice el comando 
-
+Inicie la migración en el panel o visite esta URL y haga clic en Migrar
+Iniciar la migración en Shell:
 ```
 /home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php
+```
+Iniciar la migración en el navegador:
+Visite: http://host.com:port/accesscode/setup
+
+Si algo salió mal, puede restaurar una base de datos XUI en blanco y reiniciar el proceso nuevamente ejecutando el siguiente comando.
+```
+mysql xui < /home/xui/bin/install/database.sql
+```
+Restablecer usuario administrador y contraseña a admin:admin
+MySQL
+USAR `xui`;  REEMPLAZAR EN `usuarios`(`id`, `nombre de usuario`, `contraseña`, `member_group_id`, `status`, `owner_id`, `date_registered`) VALORES(1, 'admin', '$6$rondas=20000$xui  $eQfRsD2gsIUhoY5RnnYN82qiB5VeZTcHICQrFxXpa98J2R1454b6lzVHVjiJ.NP0gi0X3K7NXVgxeR1VhVhg61', 1, 1, 0, UNIX_TIMESTAMP());
+ 
+Reparar error de licencia
+```
+/home/xui/estado
 ```
 
