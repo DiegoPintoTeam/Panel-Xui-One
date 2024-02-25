@@ -51,7 +51,7 @@ Reautorización de equilibradores de carga En MySQL: Utilice el comando
 /home/xui/tools mysql
 ```
 
-Restaurar una base de datos Blank: Utilice el comando
+Restaurar una base de datos en blanco: Utilice el comando
 
 ```
 /home/xui/tools database
