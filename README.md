@@ -13,13 +13,13 @@ Aquí hay algunos consejos para administrar su panel para un rendimiento óptimo
 
 
 
-Detener XUI One: Utilice el comando 
+Detener XUI: Utilice el comando 
 
 ```
 /home/xui/service stop
 ```
 
-Iniciar XUI One: Utilice el comando
+Iniciar XUI: Utilice el comando
 
 ```
 /home/xui/service start
