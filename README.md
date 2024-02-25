@@ -10,6 +10,7 @@ apt-get update; apt-get upgrade; wget "https://update.xui.one/XUI_1.5.12.zip" -O
 
 Aquí hay algunos consejos para administrar su panel para un rendimiento óptimo y para evitar la inestabilidad:
 
+
 --------------------------------------------------------------------
 
 Detener XUI One: Utilice el comando 
