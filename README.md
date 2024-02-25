@@ -3,10 +3,54 @@ apt-get update; apt-get upgrade; wget "https://update.xui.one/XUI_1.5.12.zip" -O
 ```
 ---------------------------------------------------------------------
 
-Restaurar Base de datos
-```
-/home/xui/tools migration "/root/backup.sql" 
-```
-```
-/home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php
-```
+Aquí hay algunos consejos para administrar su panel para un rendimiento óptimo y para evitar la inestabilidad o el parada:
+
+Detener XUI. Un Panel ONE: Utilice el comando 
+```/home/xui/service stop```
+
+Comenzando XUI. Un Panel ONE: Utilice el comando
+```/home/xui/service start```
+
+Base de datos refrescante: Utilice el comando 
+```/home/xui/status```
+
+Herramientas de listado: Utilice el comando
+```/home/xui/tools```
+
+Crear Rescue Código de Acceso: Utilice el comando
+```/home/xui/tools rescue```
+
+Crear Rescue Admin Usuario: Utilice el comando
+```/home/xui/tools user```
+
+Reautorización de equilibradores de carga En MySQL: Utilice el comando
+```/home/xui/tools mysql```
+
+Restaurar una base de datos Blank: Utilice el comando
+```/home/xui/tools database```
+
+Clearing Migration Database: Utilice el comando
+```/home/xui/tools migration```
+
+Flushing Todos los IPs bloqueados: Utilice el comando
+```/home/xui/tools flush```
+
+Regeneración de puertos de MySQL: Utilice el comando 
+```/home/xui/tools ports```
+
+Regeneración del Código de Acceso de MySQL: Utilice el comando 
+```/home/xui/tools access```
+
+Generar rápidamente Copia de seguridad completa: Utilice el ```comando mysqldump -u root xui > xuiLT-backup.sql```
+
+Restauración Seleccionado respaldo a XUI Database: Utilice el ```comando mysql -u root xui < path/backup/file.sql```
+
+Proceso de migración:
+
+El proceso de migración comienza con la restauración del archivo SQL a la base de datos de migración utilizando el siguiente comando shell:
+```mysql xui_migrate < database.sql```
+
+Tiene dos maneras de iniciar el proceso de migración para la base de datos XUI: visitando la página del panel o haciéndolo manualmente en el shell.
+
+Inicio Migración En Panel: Visite esta URL y haga clic en MigrarInicio Migración En Shell: Utilice el comando 
+```/home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php```
