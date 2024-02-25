@@ -71,3 +71,5 @@ Tiene dos maneras de iniciar el proceso de migración para la base de datos XUI:
 Inicio Migración En Panel: Visite esta URL y haga clic en MigrarInicio Migración En Shell: Utilice el comando 
 
 ```/home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php```
+
+---------------------------------------------------------------------
