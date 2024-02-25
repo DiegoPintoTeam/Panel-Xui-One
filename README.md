@@ -1,22 +1,22 @@
-1- apt-get update
+apt-get update
 
-2- apt-get upgrade
+apt-get upgrade
 
-3- wget "https://update.xui.one/XUI_1.5.12.zip" -O /tmp/XUI_1.5.12.zip
+wget "https://update.xui.one/XUI_1.5.12.zip" -O /tmp/XUI_1.5.12.zip
 
-4- cd /tmp
+cd /tmp
 
-5- apt install zip unzip -y ; unzip XUI_1.5.12.zip
+apt install zip unzip -y ; unzip XUI_1.5.12.zip
 
-6- ./install
+./install
 
-7- wget "https://github.com/DiegoPintoTeam/Panel-Xui-One/raw/main/xui_crack.tar.gz" -O /tmp/xui_crack.tar.gz
+wget "https://github.com/DiegoPintoTeam/Panel-Xui-One/raw/main/xui_crack.tar.gz" -O /tmp/xui_crack.tar.gz
 
-8- cd /tmp
+cd /tmp
 
-9- tar -xf xui_crack.tar.gz
+tar -xf xui_crack.tar.gz
 
-10- sh /tmp/install.sh
+sh /tmp/install.sh
 
 ---------------------------------------------------------------------
 Restaurar Base de datos
