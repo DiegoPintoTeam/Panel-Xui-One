@@ -15,13 +15,13 @@ Detener XUI One: Utilice el comando 
 /home/xui/service stop
 ```
 
-Comenzando XUI One: Utilice el comando
+Iniciar XUI One: Utilice el comando
 
 ```
 /home/xui/service start
 ```
 
-Base de datos refrescante: Utilice el comando 
+Refrescar base de datos : Utilice el comando 
 
 ```
 /home/xui/status
