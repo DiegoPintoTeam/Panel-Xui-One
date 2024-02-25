@@ -21,7 +21,7 @@ Iniciar XUI One: Utilice el comando
 /home/xui/service start
 ```
 
-Refrescar base de datos : Utilice el comando 
+Ver la base de datos : Utilice el comando 
 
 ```
 /home/xui/status
