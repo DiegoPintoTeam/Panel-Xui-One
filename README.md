@@ -6,5 +6,6 @@ Restaurar Base de datos
 ```
 /home/xui/tools migration "/root/backup.sql" 
 ```
+```
 /home/xui/bin/php/bin/php /home/xui/includes/cli/migrate.php
 ```
