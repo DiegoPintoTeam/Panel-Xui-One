@@ -21,7 +21,7 @@ Iniciar XUI One: Utilice el comando
 /home/xui/service start
 ```
 
-Ver la base de datos : Utilice el comando 
+Ver estado la base de datos : Utilice el comando 
 
 ```
 /home/xui/status
@@ -33,13 +33,13 @@ Herramientas de listado: Utilice el comando
 /home/xui/tools
 ```
 
-Crear Rescue Código de Acceso: Utilice el comando
+Crear rescatar Código de Acceso: Utilice el comando
 
 ```
 /home/xui/tools rescue
 ```
 
-Crear Rescue Admin Usuario: Utilice el comando
+Crear rescatar Admin Usuario: Utilice el comando
 
 ```
 /home/xui/tools user
@@ -57,7 +57,7 @@ Restaurar una base de datos Blank: Utilice el comando
 /home/xui/tools database
 ```
 
-Clearing Migration Database: Utilice el comando
+Borrar la base de datos de migración: Utilice el comando
 
 ```
 /home/xui/tools migration
