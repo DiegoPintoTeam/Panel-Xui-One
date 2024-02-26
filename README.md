@@ -127,7 +127,7 @@ Reparar error de licencia
 /home/xui/estado
 ```
 
-Api Key IMD
+Api Key IMDB
 ```
 3ec71207d069c9fbbb5ef345fa097c72
 ```
