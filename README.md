@@ -94,7 +94,7 @@ USAR `xui`;  REEMPLAZAR EN `usuarios`(`id`, `nombre de usuario`, `contraseña`, 
  
 Reparar error de licencia
 ```
-/home/xui/estado
+/home/xui/status
 ```
 Api Key IMDB
 ```
