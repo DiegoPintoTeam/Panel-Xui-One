@@ -14,7 +14,6 @@ Les dejo algunos comandos en caso de fallas:
 
 
 Iniciar XUI: Utilice el comando
-
 ```
 /home/xui/service start
 ```
@@ -23,17 +22,13 @@ Detener XUI: Utilice el comando 
 /home/xui/service stop
 ```
 Ver estado la base de datos : Utilice el comando 
-
 ```
 /home/xui/status
 ```
-
 Herramientas de listado: Utilice el comando
-
 ```
 /home/xui/tools
 ```
-
 Crear rescatar Código de Acceso: Utilice el comando
 
 ```
