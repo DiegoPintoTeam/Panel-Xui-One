@@ -21,7 +21,7 @@ Detener XUI: Utilice el comando 
 ```
 /home/xui/service stop
 ```
-Ver estado la base de datos : Utilice el comando 
+Ver estado de la base de datos : Utilice el comando 
 ```
 /home/xui/status
 ```
