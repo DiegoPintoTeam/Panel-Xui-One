@@ -9,7 +9,6 @@ apt-get update; apt-get upgrade; wget "https://update.xui.one/XUI_1.5.5.zip" -O 
 Versión beta 1.5.12
 
 ```
-```
 apt-get update
 ```
 apt-get upgrade
@@ -29,6 +28,7 @@ cd /tmp
 tar -xf xui_crack.tar.gz
 ```
 sh /tmp/install.sh
+```
 
 
 Les dejo algunos comandos en caso de fallas:
