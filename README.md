@@ -38,7 +38,6 @@ tar -xf xui_crack.tar.gz
 ```
 ```
 sh /tmp/install.sh
-```
 
 
 Les dejo algunos comandos en caso de fallas:
