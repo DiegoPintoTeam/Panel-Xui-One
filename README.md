@@ -1,4 +1,5 @@
-Versión beta 1.5.12
+Panel Xui One
+
 
 ```
 apt-get update
