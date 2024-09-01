@@ -8,7 +8,7 @@ apt-get update
 apt-get upgrade
 ```
 ```
-wget «https://update.xui.one/XUI_1.5.12.zip» -O /tmp/XUI_1.5.12.zip
+wget "https://update.xui.one/XUI_1.5.12.zip" -O /tmp/XUI_1.5.12.zip
 ```
 ```
 cd /tmp
