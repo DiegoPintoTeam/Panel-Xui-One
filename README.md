@@ -1,6 +1,6 @@
 Versión beta 1.5.12
 
-```
+
 apt-get update
 ```
 apt-get upgrade
