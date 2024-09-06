@@ -8,13 +8,13 @@ apt-get update
 apt-get upgrade
 ```
 ```
-wget "https://update.xui.one/XUI_1.5.12.zip" -O /tmp/XUI_1.5.12.zip
+wget "https://update.xui.one/XUI_1.5.5.zip" -O /tmp/XUI_1.5.5.zip
 ```
 ```
 cd /tmp
 ```
 ```
-apt install zip unzip -y ; unzip XUI_1.5.12.zip
+apt install zip unzip -y ; unzip XUI_1.5.5.zip
 ```
 ```
 ./install
