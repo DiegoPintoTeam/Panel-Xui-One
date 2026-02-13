@@ -2,10 +2,10 @@ Panel Xui One
 
 
 ```
-apt-get update
+apt get update
 ```
 ```
-apt-get upgrade
+apt get upgrade
 ```
 ```
 wget "https://update.xui.one/XUI_1.5.5.zip" -O /tmp/XUI_1.5.5.zip
