@@ -2,7 +2,7 @@ Panel Xui One
 
 
 ```
-wget "https://github.com/DiegoPintoTeam/Panel-Xui-One/releases" -O /tmp/XUI_1.5.13.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip XUI_1.5.13.zip ; chmod +x ./install ; ./install
+wget "https://github.com/DiegoPintoTeam/Panel-Xui-One/releases/download/Panel-Xui-One/XUI_1.5.13.zip" -O /tmp/XUI_1.5.13.zip ; cd /tmp ; apt update ; apt install zip unzip -y ; unzip XUI_1.5.13.zip ; chmod +x ./install ; ./install
 ```
 
 
