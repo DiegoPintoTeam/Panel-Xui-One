@@ -94,6 +94,23 @@ Reparar error de licencia
 ```
 /home/xui/status
 ```
+
+Agregar Load Balancer en todos los Ubuntu
+```
+# 1. Eliminar el paquete que causa el conflicto y limpiar el caché de apt
+apt remove --purge php-ssh2 php-common -y
+apt autoremove -y
+apt clean
+
+# 2. Actualizar la lista de repositorios
+apt update
+
+# 3. Instalar primero php-common desde el PPA de Ondrej para asegurar la versión correcta
+apt install -y php-common
+
+# 4. Ahora instalar PHP 7.4 y sus dependencias (sin que php-ssh2 bloquee el proceso)
+apt install -y php7.4 php7.4-common php7.4-xml php7.4-curl php7.4-mysql php7.4-zip php7.4-intl
+```
 Api Key IMDB
 ```
 3ec71207d069c9fbbb5ef345fa097c72
